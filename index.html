@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<style>
+			html {width: 500px; padding: 10px 20px 10px 20px;}
+			#refresh {position: absolute; right: 15px; top: 15px;}
+		</style>
+	</head>
+	<body>
+		<button id="refresh" class="btn btn-default">
+			<span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
+			refresh
+		</button>
+		<h1>Send a FIBR alert!</h1>
+		<hr>
+
+		<b>Your Name</b><br>
+		<input type="text" class="form-control" id="name" placeholder="Andrew, Heisenberg, etc."><br><br>
+
+		<b>What food is there?</b><br>
+		<input type="text" class="form-control" id="food" placeholder="pizza, salad, blood of our enemies, etc."><br><br>
+
+		<button class="btn" id="clear">Clear</button>
+		<button class="btn btn-primary" id="send">Send FIBR</button>
+
+		<script src="jquery-2.2.0.min.js"></script>
+		<script src="content.js"></script>
+	</body>
+</html>

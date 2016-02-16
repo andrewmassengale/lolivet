@@ -1,0 +1,2 @@
+document.getElementsByTagName('body')[0].innerHTML = document.getElementsByTagName('body')[0].innerHTML.replace(/Olivet/g, 'Lolivet');
+document.getElementsByTagName('body')[0].innerHTML = document.getElementsByTagName('body')[0].innerHTML.replace(/^[L]olivet/g, 'lolivet');
